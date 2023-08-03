@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   
   
-  <title>分类: 深入源码 | Rourouking</title>
+  <title>标签: 计算机网络 | Rourouking</title>
   
   <meta name="author" content="zhd-generic" />
   <meta http-equiv="Cache-Control" content="no-transform" />
@@ -19,8 +19,8 @@
   
   <meta name="description" content="Welcome to DongshenImpact">
 <meta property="og:type" content="website">
-<meta property="og:title" content="分类: 深入源码">
-<meta property="og:url" content="https://timzhanghaodong.github.io/blog/categories/%E6%B7%B1%E5%85%A5%E6%BA%90%E7%A0%81/index.html">
+<meta property="og:title" content="标签: 计算机网络">
+<meta property="og:url" content="https://timzhanghaodong.github.io/blog/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/index.html">
 <meta property="og:site_name" content="Rourouking">
 <meta property="og:description" content="Welcome to DongshenImpact">
 <meta property="og:locale" content="zh_CN">
@@ -163,18 +163,13 @@
             </a>
             <i class="fa fa-angle-right"></i>
             
-
-                <a href="/blog/categories/">
-                    分类
+                <a href="/blog/tags/">
+                    标签
                 </a>
-
-                
-                
-                    <i class="fa fa-angle-right"></i>
-                    <a href="/blog/categories/%E6%B7%B1%E5%85%A5%E6%BA%90%E7%A0%81/">
-                        深入源码
-                    </a>
-                
+                <i class="fa fa-angle-right"></i>
+                <a href="/blog/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C">
+                    计算机网络
+                </a>
             
             
         </div>
@@ -189,7 +184,7 @@
             <div class="kratos-entry-border-new clearfix">
                 
                 <div class="kratos-entry-thumb-new">
-                    <a href="/blog/2023/05/16/STL-alloc/">
+                    <a href="/blog/2023/05/23/keep-alive/">
                         
                             <img class="kratos-entry-thumb-new-img" alt="">
                         
@@ -197,34 +192,31 @@
                 </div>
                 <div class="kratos-post-inner-new">
                     <header class="kratos-entry-header-new">
-                            <a class="label-link" href="/blog/categories/%E6%B7%B1%E5%85%A5%E6%BA%90%E7%A0%81/">深入源码</a>
-                        <h2 class="kratos-entry-title-new"><a href="/blog/2023/05/16/STL-alloc/" itemprop="mainEntityOfPage"><span itemprop="name headline">STL-alloc</span></a>
+                            <a class="label-link" href="/blog/categories/TCP-HTTP/">TCP/HTTP</a>
+                        <h2 class="kratos-entry-title-new"><a href="/blog/2023/05/23/keep-alive/" itemprop="mainEntityOfPage"><span itemprop="name headline">keep alive</span></a>
                     </header>
                     <div class="kratos-entry-content-new">
                         <p itemProp="description">
                             
                                 
-这里咱们就看allocate :cloud_with_rain:
-SGI的设计哲学
-申请堆空间
-考虑多线程
-考虑内存不足时的应变措施
-考虑过多“小型区块”可能造成的内存碎片问题
+长时间不通讯，TCP会保持连接吗？如何得知对方还活着？如何得知这个TCP连接是健康且具有通讯能力的？
+TCP的保活机制 keepalive系统级的
 
-走进源码众所周知，第一级空间配置器使用类模板mall...
+保活机制默认是关闭的，TCP连接的任何一方都可打开此功能。
+有三个主要配置参数用来...
                             
                         </p>
                     </div>
                 </div>
                 <footer class="kratos-post-meta-new">
                     <span class="pull-left">
-                        <time datetime="2023-05-16T13:15:11.000Z" itemprop="datePublished">
-                            <a><i class="fa fa-calendar"></i> 2023-05-16</a>
+                        <time datetime="2023-05-23T10:42:40.000Z" itemprop="datePublished">
+                            <a><i class="fa fa-calendar"></i> 2023-05-23</a>
                         </time>
                         <a>
                             
                                 <i class="fa fa-tags"></i>
-                                <a class="tag-none-link" href="/blog/tags/C/" rel="tag">C++</a>
+                                <a class="tag-none-link" href="/blog/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" rel="tag">计算机网络</a>
                             
                         </a>
                         
@@ -237,7 +229,7 @@ SGI的设计哲学
                         
                     </span>
                     <span class="pull-right">
-                        <a class="read-more" href="/blog/2023/05/16/STL-alloc/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
+                        <a class="read-more" href="/blog/2023/05/23/keep-alive/" title="阅读全文">阅读全文<i class="fa fa-chevron-circle-right"></i></a>
                     </span>
                 </footer>
             </div>
